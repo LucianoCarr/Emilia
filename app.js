@@ -3,6 +3,10 @@ const app = express()
 const PORT = 3030
 const path = require('path')
 
+//configuracion
+app.use(express.static('public'))
+
+//rutas
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views','home.html')))
 app.get('/contact', (req,res) => res.sendFile(path.join(__dirname, 'views','contact.html')))
 app.get('/music', (req,res) => res.sendFile(path.join(__dirname, 'views','music.html')))
