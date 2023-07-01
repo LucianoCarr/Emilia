@@ -1,0 +1,47 @@
+.music nav ul {
+    margin-left: 35px;
+    opacity: 0.7;
+}
+
+.music h5 {
+    opacity: 0.7;
+}
+
+.music h4 {
+    font-family: var(--tipografiaTitulos);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.music section ol li {
+    padding: 5px;
+    margin-left: 8px;
+    list-style: none;
+}
+
+.album {
+    padding-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.twist, .street, .organic {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.video {
+    padding-top: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.music main section img {
+    width: 640px; 
+}
+
+.music main section iframe {
+    width: 640px; 
+    height: 360px;
+    border-style: none;
+}
